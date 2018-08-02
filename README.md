@@ -1,46 +1,23 @@
-# Project:
+# Django Music History
 
+An app to practice using Django's modeling and templating features.
 
+## Still Required:
 
-## Requirements:
-
-
+* Get views working
+* Create form for adding album to database
+* Write a URL conf, view, and template for viewing album data in a list
+* Use a form model for the form, use class-based view with methods that return the data you want to bind to the template
 
 ## Currently Working On:
 
+* Build views for my models
 
+## Already Done:
 
-## Remaining Features:
-
-
-
-## Stretch Goals:
-
-
-
-## Completed Features:
-
-
-
-## Data Structure:
-
-
-## Sprint List (newest at top):
-
+* Build models for Artist, Song, Album, and Genre
 
 ## To Run
-
-[Delete what isn't necessary]
-
-Grunt Apps
-
-1. Clone the repo.
-2. From the command line, cd into the /src directory.
-3. Type ```grunt``` into the command line.
-4. Open a second terminal and cd into the /src directory.
-5. Type ```hs -o``` into the command line.
-
-Django Apps
 
 1. Clone the repo.
 2. From the command line, cd into the root directory (wherever the manage.py file is located).
