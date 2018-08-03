@@ -8,6 +8,10 @@ An app to practice using Django's modeling and templating features.
 * Create form for adding album to database
 * Write a URL conf, view, and template for viewing album data in a list
 * Use a form model for the form, use class-based view with methods that return the data you want to bind to the template
+* Get the templates that don't extend index.html working correctly
+* Write tests for the songs model/functionality
+* Add functionality for genres
+* Write tests for genres
 
 ## Currently Working On:
 

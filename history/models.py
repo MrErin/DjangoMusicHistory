@@ -5,12 +5,12 @@ class Artist(models.Model):
     """Model the data of a musical artist"""
 
     Artist_ID = models.AutoField(primary_key=True)
-    Artist_Name = models.CharField(max_length=None)
+    Artist_Name = models.CharField(max_length=140)
     Year_Established = models.PositiveSmallIntegerField(blank=True, null=True)
 
     class Meta:
-        verbose_name = _("Artist")
-        verbose_name_plural = _("Artists")
+        verbose_name = ("Artist")
+        verbose_name_plural = ("Artists")
 
     def __str__(self):
         return self.Artist_Name
@@ -31,8 +31,8 @@ class Song(models.Model):
     Album_ID = models.ForeignKey("Album", on_delete=models.CASCADE)
 
     class Meta:
-        verbose_name = _("Song")
-        verbose_name_plural = _("Songs")
+        verbose_name = ("Song")
+        verbose_name_plural = ("Songs")
 
     def __str__(self):
         return self.Song_Title
@@ -53,8 +53,8 @@ class Album(models.Model):
     Genre_ID = models.ForeignKey("Genre", on_delete=models.CASCADE)
 
     class Meta:
-        verbose_name = _("Album")
-        verbose_name_plural = _("Albums")
+        verbose_name = ("Album")
+        verbose_name_plural = ("Albums")
 
     def __str__(self):
         return self.Album_Title
@@ -70,8 +70,8 @@ class Genre(models.Model):
     Genre_Name = models.CharField(max_length=50)
 
     class Meta:
-        verbose_name = _("Genre")
-        verbose_name_plural = _("Genres")
+        verbose_name = ("Genre")
+        verbose_name_plural = ("Genres")
 
     def __str__(self):
         return self.name
